@@ -12,10 +12,10 @@ function DropDown() {
     const HandleClick = (event) => {
         if (listState === "open") {
             setList((prevState) => (prevState = ""));
+            setSelect((prevSelect) => (prevSelect = ""));
         }
         else {
             setList((prevState) => (prevState = "open"));
-            setSelect((prevSelect) => (prevSelect = ""));
         }
     }
 
