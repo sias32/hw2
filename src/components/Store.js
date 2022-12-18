@@ -10,9 +10,6 @@ function Store({ products }) {
     const [icon, setIcon] = useState(list);
 
     const Switch = (events) => {
-        console.log(events.target);
-        console.log(icon);
-
         if (icon === list) {
             setIcon((prevIcon) => (prevIcon = module));
         }

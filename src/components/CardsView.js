@@ -6,11 +6,14 @@ function CardsView({ products }) {
         <div className="CardsView">
             {products.map((product) => (
                 <div key={product.name + "&" + product.price + "&" + product.color} className="Card">
-                    <p className="card-name">{product.name}</p>
-                    <p className="card-color">{product.color}</p>
-                    <img src={product.img} alt="Картиночка"/>
-                    <p className="card-price">${product.price}</p>
-                    <button className="card-button">Add to Card</button>
+                    <p className="Card-name">{product.name}</p>
+                    <p className="Card-color">{product.color}</p>
+                    <img className='Card-img' src={product.img} alt="Картиночка" />
+                    <div className="Card-bottom">
+                        <p className="Card-price">${product.price}</p>
+                        <button className="Card-button">Add to Card</button>
+                    </div>
+
                 </div>
             ))}
         </div>
