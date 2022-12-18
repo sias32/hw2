@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.IconSwitch {
+    margin: 10px 10px;
+    text-align: right;
+}
+
+.CardsView {
+
+}
+
+.Card {
+    display: inline-block;
+    background-color: darkgray;
+    margin: 10px 10px;
+}
+
+.Card img{
+    padding: 5px;
+    width: 250px;
+}
+
+.card-button {
+    border-color: red;
+    color: red;
+}
